@@ -1,0 +1,86 @@
+@media (max-width:820px) {
+   
+
+    .container-centro {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-centro .container-imagem {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .container-centro .botoes {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .banner1 .info {
+        padding: 0 0 0 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner1  {
+        display: block;
+        height: 350px;
+    }      
+    .salao {
+        height: 175px;
+    }
+    
+    .banner1 .info {
+        position: unset;
+        background-color: black;
+        display: block;
+        padding: 0;
+        height: 175px;
+        text-align: center;
+    }
+
+    
+    .container-centro {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-centro .container-pedidos h3 {
+        padding: 10px 0;
+        width: 400px;
+        font-size: 18px;
+    }
+
+    .container-centro .botoes {
+        display: flex;
+        flex-direction: row;        
+    }
+
+    .container-centro .container-imagem {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .botao-pedidos {
+        width: 175px;
+        margin: 0 10px;
+    }
+    
+    .maps { 
+        height:50px;
+        margin-top: 5px;
+    }    
+    
+}
+
+
+@media (max-width: 390px) {
+    .maps {   
+        height:50px;
+        margin-left:10%;
+        margin-top: 2px;
+        height: 40px;
+    } 
+}

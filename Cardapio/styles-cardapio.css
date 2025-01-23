@@ -1,0 +1,66 @@
+
+.cardapio-banner {
+    display: flex;
+    background-image: url(./images/cardapio.png);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    }
+
+.texto-banner {
+    text-align: center;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.texto-banner p, .linha-prato {
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+
+}
+
+.cardapio .grupo-cardapio {
+    width: 75% ;
+}
+
+
+.cardapio .grupo-cardapio h3 {
+    color: #FF0000;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 20px 0;
+}
+
+.cardapio .grupo-cardapio h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.linha-prato {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.linha-prato .descricao {
+    width: 50%;
+}
+
+.borda {
+    border-bottom: 1px solid black;
+}
+
+.cardapio .grupo-cardapio .linha-prato span {
+    display: flex;
+    align-items: flex-end;
+}

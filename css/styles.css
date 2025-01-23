@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica';
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+header {
+    background-color: #FF0000;
+    padding: 10px;
+}
+
+header .imagem-topo {
+    margin-left: 50px;
+}
+
+header .menus {
+
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header .menus a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.comida-topo img, .banner1 img {
+    width: 100%;
+}
+
+.banner1 img {
+    position: relative;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.item {
+    color: white;
+    text-align: center;
+    width: 32%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.item img {
+    width: 100%;
+}
+
+.item .text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.item .text-container h2 {
+    font-size: 45px;
+    margin: 0;
+}
+
+.item .text-container p {
+    font-size: 30px;
+    margin: 0;
+}
+
+.item .text-container span {
+    font-weight: bold;
+}
+
+.item .text-container .encomenda {
+    padding: 15px
+}
+
+.item .text-container img {
+    width: 125px;
+    padding-top: 15px;
+}
+
+.funcionamento {
+    display: flex;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.funcionamento .imagem-direita {
+    width: 55%;
+}
+
+.funcionamento img {
+    width: 97.5%;
+    height: 100%;
+}
+
+.funcionamento .horario {
+    background-color: #eeeeee;
+    width: 45%;
+    padding: 20px;
+    align-items: start;
+    justify-content: left;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+}
+
+.funcionamento .horario p {
+    color: #FF0000;
+}
+
+.funcionamento .horario h3 {
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+.funcionamento .horario .dias-da-semana p {
+    padding: 2px;
+    margin: 0;
+}
+
+.funcionamento .horario .endereco p {
+    margin: 0;
+    padding: 0;
+}
+
+.funcionamento .horario .delivery p {
+    margin: 40px 0 0px 0;
+}
+
+.funcionamento .horario .telefone p {
+    margin: 40px 0 40px 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #FF0000;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.menuzinhos a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.imagem-base img {
+    width: 100px;
+    margin: 15px 0;
+    padding: auto;
+}
+
+.menuzinhos a:last-child {
+    margin-bottom: 20px;
+}
+
+.instagram img {
+    width: 70px;
+    height: auto;
+}
+
+.ifood img {
+    width: 100px;
+    height: auto;
+}
+
+.onde-encontrar p{
+    color: #FFF;
+    padding: 2px;
+}
+
+.onde-encontrar a{
+    color: #FFF;
+}
+

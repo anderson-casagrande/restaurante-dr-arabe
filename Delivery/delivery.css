@@ -1,0 +1,114 @@
+main {
+    width: 100%;
+}
+
+.moto {
+   height: 400px;
+   width: 100%; 
+   background-image: url(images/moto.png);
+   background-position: center;
+   background-size: cover;
+}
+
+.banner1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
+}
+
+.banner1 .info {
+    padding-left: 200px;
+    position:absolute;
+}
+
+.banner1 .info .whats {
+    font-size: 40px;
+}
+
+.whats {
+text-decoration: none;
+color: #FFF;
+}
+
+.banner1 .info .telefone {
+    font-size: 30px;
+}
+
+.maps {
+    height: 60px;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #FFF;
+    width: 250px;
+    font-size: 18px;
+    border: 5px solid #FFF;  
+}
+
+.maps:hover{
+    cursor: pointer;
+}
+
+.botao-pedidos {
+    height: 60px;
+    border-radius: 50px;
+    background-color: transparent;
+    color:#FF0000;
+    width: 200px;
+    font-size: 18px;
+    border: 5px solid #FF0000;
+    font-weight: bold;
+    margin: 0 30px;
+}
+
+.botao-pedidos:hover{
+    cursor: pointer;
+}
+
+
+.banner1 .info p, .banner1 .info h3 {
+    color: #FFF;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner1 .info p {
+    font-size: 20px;
+}
+
+.banner1 .info h3 {
+    font-size: 24px;
+}
+
+.container-centro {
+    display: flex;
+    padding: 15px;
+    width: 100%;
+}
+
+.container-pedidos {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-imagem {
+    width: 45%;
+}
+
+.container-imagem img {
+    width: 100%;
+}
+
+.container-pedidos h3 {
+    font-size: 30px;
+    padding: 50px;
+    text-align: center;
+}
